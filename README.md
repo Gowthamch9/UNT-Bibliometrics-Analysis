@@ -176,8 +176,6 @@ One of the more interesting findings: **31 works passed the API filter but showe
 
 Four interactive dashboards built on top of the T-SQL views via DirectQuery:
 
-| Dashboard | Key Visuals |
-|---|---|
 | **Research Overview** | KPI cards · 25-year publication trend · Work type split · Domain breakdown |
 ![Dashboard 1](https://github.com/Gowthamch9/UNT-Bibliometrics-Analysis/blob/main/Power%20BI%20Dashboards/Screenshot%202026-06-30%20133134.png)
 
