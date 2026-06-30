@@ -179,9 +179,16 @@ Four interactive dashboards built on top of the T-SQL views via DirectQuery:
 | Dashboard | Key Visuals |
 |---|---|
 | **Research Overview** | KPI cards · 25-year publication trend · Work type split · Domain breakdown |
+![Dashboard 1](https://github.com/Gowthamch9/UNT-Bibliometrics-Analysis/blob/main/Power%20BI%20Dashboards/Screenshot%202026-06-30%20133134.png)
+
 | **Open Access & Citation Impact** | OA rate over time · OA vs closed donut · Citation distribution by field |
+![Dashboard 2](https://github.com/Gowthamch9/UNT-Bibliometrics-Analysis/blob/main/Power%20BI%20Dashboards/Screenshot%202026-06-30%20133142.png)
+
 | **Research Topics Deep Dive** | Cascading domain → field → subfield → topic filters · Treemap · Topic table |
+![Dashboard 3](https://github.com/Gowthamch9/UNT-Bibliometrics-Analysis/blob/main/Power%20BI%20Dashboards/Screenshot%202026-06-30%20133151.png)
+
 | **Authors & Collaboration** | UNT authorship concentration · Prolific authors · Faculty dept/college table |
+![Dashboard 4](https://github.com/Gowthamch9/UNT-Bibliometrics-Analysis/blob/main/Power%20BI%20Dashboards/Screenshot%202026-06-30%20133200.png)
 
 ### Methodological Highlights
 
