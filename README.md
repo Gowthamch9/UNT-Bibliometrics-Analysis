@@ -8,7 +8,7 @@
 
  This independent research project builds a **reproducible, structured bibliometric pipeline** from scratch — transforming raw publication metadata into actionable institutional insights.
 
-The pipeline extracts over **52,039 UNT-affiliated research works** spanning more than 25 years (2000–until now), enriches them with faculty directory data, cleanses and audits the data in SQL Server, and delivers findings through **four interactive Power BI dashboards**.
+The pipeline extracts **52,039 UNT-affiliated research works** spanning more than 25 years (2000–until now), enriches them with faculty directory data, cleanses and audits the data in SQL Server, and delivers findings through **four interactive Power BI dashboards**.
 
 ---
 
@@ -202,7 +202,6 @@ Four interactive dashboards built on top of the T-SQL views via DirectQuery:
 - **Alumni misattribution:** OpenAlex's ML algorithm may carry forward a researcher's past UNT affiliation onto papers published after they have moved to another institution.
 - **Missing ORCIDs:** ~34% of author rows have no ORCID, limiting the reliability of author disambiguation.
 - **Faculty directory coverage:** 1,889 of ~3,327 reported UNT faculty were captured. The department list in `unt_faculty_scraper.py` can be expanded to improve coverage.
-- **No `raw_affiliation_string`:** This field was scoped for a future extraction pass and is not yet in `stg_openalex_authors`. Its absence limits the ability to catch missed UNT affiliations via text matching.
 
 ---
 
